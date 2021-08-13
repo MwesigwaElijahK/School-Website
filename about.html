@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>KCB</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,400;1,700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.hmtl"><img src="imgs/images.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="offers.html">OFFERS & FACILITIES</a></li>
+                    <li><a href="contacts.html">CONTACTS</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>About Us</h1>
+    </section>
+
+    <section class="about-us">
+        <div class="row">
+            <div class="about-col">
+                <h1>KING'S COLLEGE BUDO</h1>
+                <p>Located about 12km west of Kampala, in Nsangi subcounty wakiso district. It was founded in 1906 by the Church Missionary Society(CMS). It was founded on land donated by the Kabaka (King) of Buganda.
+                    The original vision was to train sons of Kings and Chiefs, therefore it began as a boys school. In 1934, girls were admitted as well, thus became co-educational. It is now a government aided A- Level mixed Boarding school under Church of Uganda ( Anglican ) of Namirembe Diocese. The current population is 1619 with ⅓ (one third) being female.</p>
+                <p>The school is rated as one of the consistently performing academic institutions in our country. Academics is and will continue to be our primary focus at school as we endeavor to uphold our high standards and the resulting sound academic performances from year to year. We pay tribute to our teachers who have the qualifications and experience to reach and maintain the academic expectations that we set for ourselves.</p>
+                <p>At King's College Budo, we encourage and teach students the importance of being indepedent, while valuing team work. Through their journey at Budo, students explore new ideas, develop additional interests, build relationships, and pursue their goals. Our dedicated staff members, along with Alumni groups work together to give students more flexibility in accessing various programs and courses that we offer. Teachers, guidance counsellors, administrators and career practitioners at each designated high school support students as they make choices and develop skills to be successful in high school and life.</p>    
+                <a href="" class="box red-btn">Explore Now</a>
+            </div>
+            <div class="about-col">
+                <img src="imgs/592061724_594b68838f_o.jpg">
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>Gakyali Mabaga</h4>
+        <p>So little done, So much more to do!</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-envelope-o"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-fax"></i>
+        </div>
+        <p>Made with <i class ="fa fa-hand-peace-o"></i> by eli</p>
+    </section>
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
